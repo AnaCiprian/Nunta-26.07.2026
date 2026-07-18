@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ro">
 <head>
@@ -11,7 +10,7 @@
         }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-image: url("https://i.imgur.com/vHq7b5g");
+            background-image: url("https://i.imgur.com/vHq7b5g.jpeg");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -25,44 +24,41 @@
             align-items: center;
             justify-content: center;
         }
-        /* Caseta mare - acum mult mai transparentă */
+        /* AICI am modificat opacitatea casetei mari la 65% (0.65) */
         .container {
             width: 100%;
             max-width: 450px;
-            background: rgba(255, 255, 255, 0.65); /* Opacitate scăzută la 35% ca să se vadă spatele */
+            background: rgba(255, 255, 255, 0.65);
             padding: 35px 20px;
             border-radius: 24px;
             box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            backdrop-filter: blur(5px); /* Blur redus de la 15px la 5px pentru transparență maximă */
-            -webkit-backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(15px); /* Efect de sticlă mată mai intens pentru lizibilitate */
+            -webkit-backdrop-filter: blur(15px);
         }
         h1 {
-            color: #735c36; /* Culoare puțin mai intensă ca să iasă în evidență pe fundalul transparent */
+            color: #8c7145;
             font-size: 2.2em;
             margin: 0 0 5px 0;
-            font-weight: 600;
-            text-shadow: 0px 1px 2px rgba(255, 255, 255, 0.6);
+            font-weight: 400;
         }
         .date {
-            color: #8c7145;
+            color: #a39072;
             font-size: 1.1em;
             margin-bottom: 25px;
             font-style: italic;
             letter-spacing: 1px;
-            font-weight: 600;
         }
         p {
             font-size: 1.05em;
             line-height: 1.6;
             margin-bottom: 35px;
-            color: #1a1a1a; /* Text adus aproape de negru pentru a rămâne lizibil peste poza din spate */
-            font-weight: 600;
-            text-shadow: 0px 1px 3px rgba(255, 255, 255, 0.8);
+            color: #2a2a2a; /* Text puțin mai închis la culoare ca să se vadă perfect pe fundal transparent */
+            font-weight: 500;
         }
         .btn-upload {
             display: inline-block;
-            background-color: rgba(140, 113, 69, 0.9);
+            background-color: rgba(140, 113, 69, 0.85);
             color: white;
             text-decoration: none;
             padding: 16px 28px;
@@ -70,7 +66,7 @@
             border-radius: 50px;
             font-weight: 600;
             transition: all 0.3s ease;
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 6px 20px rgba(140, 113, 69, 0.2);
             width: 100%;
         }
         .btn-upload:hover {
@@ -80,13 +76,12 @@
         .footer {
             margin-top: 40px;
             font-size: 0.95em;
-            color: #1a1a1a;
+            color: #3a3a3a;
             line-height: 1.5;
-            font-weight: 600;
-            text-shadow: 0px 1px 3px rgba(255, 255, 255, 0.8);
+            font-weight: 500;
         }
         .hearts {
-            color: #8c7145;
+            color: #c5a880;
             font-size: 1.4em;
             margin-bottom: 15px;
         }
