@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Nunta Ana & Ciprian - Amintiri</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* Fundal elegant cu un model floral discret */
+            background-color: #faf6f0;
+            background-image: radial-gradient(#e8dfd1 1px, transparent 1px), radial-gradient(#e8dfd1 1px, #faf6f0 1px);
+            background-size: 40px 40px;
+            background-position: 0 0, 20px 20px;
+            color: #4a4a4a;
+            text-align: center;
+            padding: 30px 15px;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            width: 100%;
+            max-width: 450px;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 35px 20px;
+            border-radius: 24px;
+            box-shadow: 0 15px 35px rgba(140, 113, 69, 0.12);
+            border: 1px solid #f0e6d6;
+            backdrop-filter: blur(5px);
+        }
+        h1 {
+            color: #8c7145;
+            font-size: 2.2em;
+            margin: 0 0 5px 0;
+            font-weight: 400;
+        }
+        .date {
+            color: #a39072;
+            font-size: 1.1em;
+            margin-bottom: 25px;
+            font-style: italic;
+            letter-spacing: 1px;
+        }
+        p {
+            font-size: 1.05em;
+            line-height: 1.6;
+            margin-bottom: 35px;
+            color: #5a5a5a;
+        }
+        .btn-upload {
+            display: inline-block;
+            background-color: #8c7145;
+            color: white;
+            text-decoration: none;
+            padding: 16px 28px;
+            font-size: 1.15em;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 6px 20px rgba(140, 113, 69, 0.25);
+            width: 100%;
+        }
+        .btn-upload:hover {
+            background-color: #735c36;
+            transform: translateY(-2px);
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 0.95em;
+            color: #8a8a8a;
+            line-height: 1.5;
+        }
+        .hearts {
+            color: #c5a880;
+            font-size: 1.4em;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Ana & Ciprian</h1>
+        <div class="date">26.07.2026</div>
+        
+        <div class="hearts">🤍 ✨ 🤍</div>
+        
+        <p>Vă mulțumim din suflet că ați fost alături de noi în cea mai frumoasă zi!<br><br>
+        Pentru a păstra vii toate momentele speciale, vă rugăm să încărcați aici fotografiile și clipurile video realizate de voi la nuntă.</p>
+        
+        <a href="https://www.dropbox.com/request/7y2abrwkd4zv1l8wlcrs" class="btn-upload" target="_blank">📸 Încarcă amintirile aici ❤️</a>
+        
+        <div class="footer">
+            Abia așteptăm să le vedem!<br>
+            <strong>Cu drag, Ana & Ciprian</strong>
+        </div>
+    </div>
+
+</body>
+</html>
