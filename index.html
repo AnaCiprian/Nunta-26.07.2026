@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ro">
 <head>
@@ -10,11 +11,12 @@
         }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            /* Fundal elegant cu un model floral discret */
-            background-color: #faf6f0;
-            background-image: radial-gradient(#e8dfd1 1px, transparent 1px), radial-gradient(#e8dfd1 1px, #faf6f0 1px);
-            background-size: 40px 40px;
-            background-position: 0 0, 20px 20px;
+            /* Imaginea voastră de fundal este integrată direct aici */
+            background-image: url("https://i.imgur.com/vHq7b5g.jpeg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
             color: #4a4a4a;
             text-align: center;
             padding: 30px 15px;
@@ -24,15 +26,17 @@
             align-items: center;
             justify-content: center;
         }
+        /* Caseta text cu efect de sticlă mată elegantă */
         .container {
             width: 100%;
             max-width: 450px;
-            background: rgba(255, 255, 255, 0.95);
+            background: rgba(255, 255, 255, 0.88);
             padding: 35px 20px;
             border-radius: 24px;
-            box-shadow: 0 15px 35px rgba(140, 113, 69, 0.12);
-            border: 1px solid #f0e6d6;
-            backdrop-filter: blur(5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
         }
         h1 {
             color: #8c7145;
@@ -51,7 +55,7 @@
             font-size: 1.05em;
             line-height: 1.6;
             margin-bottom: 35px;
-            color: #5a5a5a;
+            color: #3a3a3a;
         }
         .btn-upload {
             display: inline-block;
@@ -63,7 +67,7 @@
             border-radius: 50px;
             font-weight: 600;
             transition: all 0.3s ease;
-            box-shadow: 0 6px 20px rgba(140, 113, 69, 0.25);
+            box-shadow: 0 6px 20px rgba(140, 113, 69, 0.3);
             width: 100%;
         }
         .btn-upload:hover {
@@ -73,7 +77,7 @@
         .footer {
             margin-top: 40px;
             font-size: 0.95em;
-            color: #8a8a8a;
+            color: #5a5a5a;
             line-height: 1.5;
         }
         .hearts {
